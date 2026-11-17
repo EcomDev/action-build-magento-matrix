@@ -1,0 +1,1216 @@
+{
+  "data": {
+    "2.4.10-alpha1": {
+      "version": "2.4.10-alpha1",
+      "releaseDate": "2026-10-13",
+      "eolDate": null,
+      "systemRequirements": {
+        "php": [
+          "8.5"
+        ],
+        "composer": [
+          "2.10"
+        ],
+        "mysql": [
+          "8.4"
+        ],
+        "mariadb": [
+          "12.3"
+        ],
+        "opensearch": [
+          "3.7"
+        ],
+        "rabbitmq": [
+          "4.3"
+        ],
+        "valkey": [
+          "9"
+        ],
+        "varnish": [
+          "9"
+        ],
+        "nginx": [
+          "1.30"
+        ],
+        "activemq": [
+          "2"
+        ],
+        "aws-aurora-mysql": [
+          "8.0"
+        ],
+        "aws-s3": [
+          "supported"
+        ],
+        "aws-mq": [
+          "4"
+        ],
+        "aws-elasticache": [
+          "valkey-9"
+        ],
+        "aws-opensearch": [
+          "3.5"
+        ]
+      },
+      "isEOLVersion": false,
+      "isSecureVersion": false,
+      "isLatestVersion": false,
+      "isFutureVersion": true,
+      "statusLabel": "pre-release",
+      "securitySummary": {
+        "status": "unknown",
+        "requiredPatches": null,
+        "upgradeRequired": null
+      }
+    },
+    "2.4.8-p4": {
+      "version": "2.4.8-p4",
+      "releaseDate": "2026-03-10",
+      "eolDate": "2028-05-31",
+      "systemRequirements": {
+        "php": [
+          "8.3",
+          "8.4"
+        ],
+        "composer": [
+          "2.9"
+        ],
+        "mysql": [
+          "8.4"
+        ],
+        "mariadb": [
+          "11.4"
+        ],
+        "opensearch": [
+          "3"
+        ],
+        "rabbitmq": [
+          "4.1"
+        ],
+        "valkey": [
+          "8"
+        ],
+        "varnish": [
+          "7.7"
+        ],
+        "nginx": [
+          "1.28"
+        ],
+        "activemq": [
+          "2"
+        ],
+        "aws-aurora-mysql": [
+          "8.0"
+        ],
+        "aws-s3": [
+          "supported"
+        ],
+        "aws-mq": [
+          "3.13"
+        ],
+        "aws-elasticache": [
+          "redis-7"
+        ],
+        "aws-opensearch": [
+          "2.5"
+        ]
+      },
+      "isEOLVersion": false,
+      "isSecureVersion": true,
+      "isLatestVersion": false,
+      "isFutureVersion": false,
+      "statusLabel": "supported",
+      "securitySummary": {
+        "status": "vulnerable",
+        "requiredPatches": 0,
+        "upgradeRequired": true
+      }
+    },
+    "2.4.7-p9": {
+      "version": "2.4.7-p9",
+      "releaseDate": "2026-03-10",
+      "eolDate": "2027-05-31",
+      "systemRequirements": {
+        "php": [
+          "8.2",
+          "8.3"
+        ],
+        "composer": [
+          "2.9"
+        ],
+        "mysql": [
+          "8.0"
+        ],
+        "mariadb": [
+          "10.11"
+        ],
+        "elasticsearch": [
+          "7.17",
+          "8.17"
+        ],
+        "opensearch": [
+          "2.19"
+        ],
+        "redis": [
+          "7.2"
+        ],
+        "rabbitmq": [
+          "4.1"
+        ],
+        "varnish": [
+          "7.7"
+        ],
+        "nginx": [
+          "1.28"
+        ],
+        "aws-aurora-mysql": [
+          "8.0"
+        ],
+        "aws-s3": [
+          "supported"
+        ],
+        "aws-mq": [
+          "3.9.13"
+        ],
+        "aws-elasticache": [
+          "redis-7"
+        ],
+        "aws-elasticsearch": [
+          "7.9"
+        ],
+        "aws-opensearch": [
+          "2.5"
+        ],
+        "valkey": [
+          "8"
+        ]
+      },
+      "isEOLVersion": false,
+      "isSecureVersion": true,
+      "isLatestVersion": false,
+      "isFutureVersion": false,
+      "statusLabel": "supported",
+      "securitySummary": {
+        "status": "vulnerable",
+        "requiredPatches": 0,
+        "upgradeRequired": true
+      }
+    },
+    "2.4.8-p3": {
+      "version": "2.4.8-p3",
+      "releaseDate": "2025-10-14",
+      "eolDate": "2028-05-31",
+      "systemRequirements": {
+        "php": [
+          "8.3",
+          "8.4"
+        ],
+        "composer": [
+          "2.9"
+        ],
+        "mysql": [
+          "8.4"
+        ],
+        "mariadb": [
+          "11.4"
+        ],
+        "opensearch": [
+          "3"
+        ],
+        "rabbitmq": [
+          "4.1"
+        ],
+        "valkey": [
+          "8"
+        ],
+        "varnish": [
+          "7.7"
+        ],
+        "nginx": [
+          "1.28"
+        ],
+        "aws-aurora-mysql": [
+          "8.0"
+        ],
+        "aws-s3": [
+          "supported"
+        ],
+        "aws-mq": [
+          "3.13"
+        ],
+        "aws-elasticache": [
+          "redis-7"
+        ],
+        "aws-opensearch": [
+          "2.5"
+        ],
+        "activemq": [
+          "2"
+        ]
+      },
+      "isEOLVersion": false,
+      "isSecureVersion": true,
+      "isLatestVersion": false,
+      "isFutureVersion": false,
+      "statusLabel": "supported",
+      "securitySummary": {
+        "status": "vulnerable",
+        "requiredPatches": 0,
+        "upgradeRequired": true
+      }
+    },
+    "2.4.7-p8": {
+      "version": "2.4.7-p8",
+      "releaseDate": "2025-10-14",
+      "eolDate": "2027-05-31",
+      "systemRequirements": {
+        "php": [
+          "8.2",
+          "8.3"
+        ],
+        "composer": [
+          "2.9"
+        ],
+        "mysql": [
+          "8.0"
+        ],
+        "mariadb": [
+          "10.11"
+        ],
+        "elasticsearch": [
+          "7.17",
+          "8.17"
+        ],
+        "opensearch": [
+          "2.19"
+        ],
+        "redis": [
+          "7.2"
+        ],
+        "rabbitmq": [
+          "4.1"
+        ],
+        "varnish": [
+          "7.7"
+        ],
+        "nginx": [
+          "1.28"
+        ],
+        "aws-aurora-mysql": [
+          "8.0"
+        ],
+        "aws-s3": [
+          "supported"
+        ],
+        "aws-mq": [
+          "3.9.13"
+        ],
+        "aws-elasticache": [
+          "redis-7"
+        ],
+        "aws-elasticsearch": [
+          "7.9"
+        ],
+        "aws-opensearch": [
+          "2.5"
+        ],
+        "valkey": [
+          "8"
+        ]
+      },
+      "isEOLVersion": false,
+      "isSecureVersion": true,
+      "isLatestVersion": false,
+      "isFutureVersion": false,
+      "statusLabel": "supported",
+      "securitySummary": {
+        "status": "vulnerable",
+        "requiredPatches": 0,
+        "upgradeRequired": true
+      }
+    },
+    "2.4.6-p13": {
+      "version": "2.4.6-p13",
+      "releaseDate": "2025-10-14",
+      "eolDate": "2026-08-11",
+      "systemRequirements": {
+        "php": [
+          "8.1",
+          "8.2"
+        ],
+        "composer": [
+          "2.2"
+        ],
+        "mysql": [
+          "8.0"
+        ],
+        "mariadb": [
+          "10.11"
+        ],
+        "elasticsearch": [
+          "7.17",
+          "8.17"
+        ],
+        "opensearch": [
+          "2.19"
+        ],
+        "redis": [
+          "7.2"
+        ],
+        "rabbitmq": [
+          "4.1"
+        ],
+        "varnish": [
+          "7.7"
+        ],
+        "nginx": [
+          "1.28"
+        ],
+        "aws-aurora-mysql": [
+          "8.0"
+        ],
+        "aws-s3": [
+          "supported"
+        ],
+        "aws-mq": [
+          "3.9.13"
+        ],
+        "aws-elasticache": [
+          "redis-6"
+        ],
+        "aws-elasticsearch": [
+          "7.9"
+        ],
+        "aws-opensearch": [
+          "1.2"
+        ],
+        "valkey": [
+          "8"
+        ]
+      },
+      "isEOLVersion": true,
+      "isSecureVersion": false,
+      "isLatestVersion": false,
+      "isFutureVersion": false,
+      "statusLabel": "eol",
+      "securitySummary": {
+        "status": "eol",
+        "requiredPatches": 0,
+        "upgradeRequired": true
+      }
+    },
+    "2.4.8-p2": {
+      "version": "2.4.8-p2",
+      "releaseDate": "2025-08-12",
+      "eolDate": "2028-05-31",
+      "systemRequirements": {
+        "php": [
+          "8.3",
+          "8.4"
+        ],
+        "composer": [
+          "2.9"
+        ],
+        "mysql": [
+          "8.4"
+        ],
+        "mariadb": [
+          "11.4"
+        ],
+        "opensearch": [
+          "3"
+        ],
+        "rabbitmq": [
+          "4.1"
+        ],
+        "valkey": [
+          "8"
+        ],
+        "varnish": [
+          "7.7"
+        ],
+        "nginx": [
+          "1.28"
+        ],
+        "apache": [
+          "2.4"
+        ],
+        "aws-aurora-mysql": [
+          "8.0"
+        ],
+        "aws-s3": [
+          "supported"
+        ],
+        "aws-mq": [
+          "3.13"
+        ],
+        "aws-elasticache": [
+          "redis-7"
+        ],
+        "aws-opensearch": [
+          "2.5"
+        ]
+      },
+      "isEOLVersion": false,
+      "isSecureVersion": true,
+      "isLatestVersion": false,
+      "isFutureVersion": false,
+      "statusLabel": "supported",
+      "securitySummary": {
+        "status": "vulnerable",
+        "requiredPatches": 0,
+        "upgradeRequired": true
+      }
+    },
+    "2.4.7-p7": {
+      "version": "2.4.7-p7",
+      "releaseDate": "2025-08-12",
+      "eolDate": "2027-05-31",
+      "systemRequirements": {
+        "php": [
+          "8.2",
+          "8.3"
+        ],
+        "composer": [
+          "2.9"
+        ],
+        "mysql": [
+          "8.0"
+        ],
+        "mariadb": [
+          "10.11"
+        ],
+        "elasticsearch": [
+          "7.17",
+          "8.17"
+        ],
+        "opensearch": [
+          "2.19"
+        ],
+        "redis": [
+          "7.2"
+        ],
+        "rabbitmq": [
+          "4.1"
+        ],
+        "varnish": [
+          "7.7"
+        ],
+        "nginx": [
+          "1.28"
+        ],
+        "aws-aurora-mysql": [
+          "8.0"
+        ],
+        "aws-s3": [
+          "supported"
+        ],
+        "aws-mq": [
+          "3.9.13"
+        ],
+        "aws-elasticache": [
+          "redis-7"
+        ],
+        "aws-elasticsearch": [
+          "7.9"
+        ],
+        "aws-opensearch": [
+          "2.5"
+        ],
+        "valkey": [
+          "8"
+        ]
+      },
+      "isEOLVersion": false,
+      "isSecureVersion": true,
+      "isLatestVersion": false,
+      "isFutureVersion": false,
+      "statusLabel": "supported",
+      "securitySummary": {
+        "status": "vulnerable",
+        "requiredPatches": 0,
+        "upgradeRequired": true
+      }
+    },
+    "2.4.8-p1": {
+      "version": "2.4.8-p1",
+      "releaseDate": "2025-06-10",
+      "eolDate": "2028-05-31",
+      "systemRequirements": {
+        "php": [
+          "8.3",
+          "8.4"
+        ],
+        "composer": [
+          "2.9"
+        ],
+        "mysql": [
+          "8.4"
+        ],
+        "mariadb": [
+          "11.4"
+        ],
+        "opensearch": [
+          "2.19"
+        ],
+        "rabbitmq": [
+          "4.1"
+        ],
+        "valkey": [
+          "8"
+        ],
+        "varnish": [
+          "7.6"
+        ],
+        "nginx": [
+          "1.26"
+        ],
+        "apache": [
+          "2.4"
+        ],
+        "aws-aurora-mysql": [
+          "8.0"
+        ],
+        "aws-s3": [
+          "supported"
+        ],
+        "aws-mq": [
+          "3.13"
+        ],
+        "aws-elasticache": [
+          "redis-7"
+        ],
+        "aws-opensearch": [
+          "2.5"
+        ]
+      },
+      "isEOLVersion": false,
+      "isSecureVersion": true,
+      "isLatestVersion": false,
+      "isFutureVersion": false,
+      "statusLabel": "supported",
+      "securitySummary": {
+        "status": "vulnerable",
+        "requiredPatches": 1,
+        "upgradeRequired": true
+      }
+    },
+    "2.4.8": {
+      "version": "2.4.8",
+      "releaseDate": "2025-04-08",
+      "eolDate": "2028-05-31",
+      "systemRequirements": {
+        "php": [
+          "8.3",
+          "8.4"
+        ],
+        "composer": [
+          "2.9"
+        ],
+        "mysql": [
+          "8.4"
+        ],
+        "mariadb": [
+          "11.4"
+        ],
+        "opensearch": [
+          "2.19"
+        ],
+        "rabbitmq": [
+          "4.1"
+        ],
+        "valkey": [
+          "8"
+        ],
+        "varnish": [
+          "7.6"
+        ],
+        "nginx": [
+          "1.26"
+        ],
+        "apache": [
+          "2.4"
+        ],
+        "aws-aurora-mysql": [
+          "8.0"
+        ],
+        "aws-s3": [
+          "supported"
+        ],
+        "aws-mq": [
+          "3.13"
+        ],
+        "aws-elasticache": [
+          "redis-7"
+        ],
+        "aws-opensearch": [
+          "2.5"
+        ]
+      },
+      "isEOLVersion": false,
+      "isSecureVersion": true,
+      "isLatestVersion": false,
+      "isFutureVersion": false,
+      "statusLabel": "supported",
+      "securitySummary": {
+        "status": "vulnerable",
+        "requiredPatches": 0,
+        "upgradeRequired": true
+      }
+    },
+    "2.4.6-p10": {
+      "version": "2.4.6-p10",
+      "releaseDate": "2025-04-08",
+      "eolDate": "2026-08-11",
+      "systemRequirements": {
+        "php": [
+          "8.1",
+          "8.2"
+        ],
+        "composer": [
+          "2.2"
+        ],
+        "mysql": [
+          "8.0"
+        ],
+        "mariadb": [
+          "10.6"
+        ],
+        "elasticsearch": [
+          "7.17",
+          "8.17"
+        ],
+        "opensearch": [
+          "2.19"
+        ],
+        "redis": [
+          "7.0"
+        ],
+        "rabbitmq": [
+          "3.13",
+          "4.1"
+        ],
+        "varnish": [
+          "7.6"
+        ],
+        "nginx": [
+          "1.26"
+        ],
+        "apache": [
+          "2.4"
+        ],
+        "aws-aurora-mysql": [
+          "8.0"
+        ],
+        "aws-s3": [
+          "supported"
+        ],
+        "aws-mq": [
+          "3.9.13"
+        ],
+        "aws-elasticache": [
+          "redis-6"
+        ],
+        "aws-elasticsearch": [
+          "7.9"
+        ],
+        "aws-opensearch": [
+          "1.2"
+        ]
+      },
+      "isEOLVersion": true,
+      "isSecureVersion": false,
+      "isLatestVersion": false,
+      "isFutureVersion": false,
+      "statusLabel": "eol",
+      "securitySummary": {
+        "status": "eol",
+        "requiredPatches": 0,
+        "upgradeRequired": true
+      }
+    },
+    "2.4.7-p4": {
+      "version": "2.4.7-p4",
+      "releaseDate": "2025-02-11",
+      "eolDate": "2027-05-31",
+      "systemRequirements": {
+        "php": [
+          "8.2",
+          "8.3"
+        ],
+        "composer": [
+          "2.9"
+        ],
+        "mysql": [
+          "8.0"
+        ],
+        "mariadb": [
+          "10.6"
+        ],
+        "elasticsearch": [
+          "7.17",
+          "8.16"
+        ],
+        "opensearch": [
+          "2.12"
+        ],
+        "redis": [
+          "7.2"
+        ],
+        "rabbitmq": [
+          "3.13"
+        ],
+        "varnish": [
+          "7.6"
+        ],
+        "nginx": [
+          "1.26"
+        ],
+        "apache": [
+          "2.4"
+        ],
+        "aws-aurora-mysql": [
+          "8.0"
+        ],
+        "aws-s3": [
+          "supported"
+        ],
+        "aws-mq": [
+          "3.9.13"
+        ],
+        "aws-elasticache": [
+          "redis-7"
+        ],
+        "aws-elasticsearch": [
+          "7.9"
+        ],
+        "aws-opensearch": [
+          "2.5"
+        ]
+      },
+      "isEOLVersion": false,
+      "isSecureVersion": true,
+      "isLatestVersion": false,
+      "isFutureVersion": false,
+      "statusLabel": "supported",
+      "securitySummary": {
+        "status": "vulnerable",
+        "requiredPatches": 0,
+        "upgradeRequired": true
+      }
+    },
+    "2.4.7-p3": {
+      "version": "2.4.7-p3",
+      "releaseDate": "2024-10-08",
+      "eolDate": "2027-05-31",
+      "systemRequirements": {
+        "php": [
+          "8.2",
+          "8.3"
+        ],
+        "composer": [
+          "2.9"
+        ],
+        "mysql": [
+          "8.0"
+        ],
+        "mariadb": [
+          "10.6"
+        ],
+        "elasticsearch": [
+          "7.17",
+          "8.11"
+        ],
+        "opensearch": [
+          "2.12"
+        ],
+        "redis": [
+          "7.2"
+        ],
+        "rabbitmq": [
+          "3.13"
+        ],
+        "varnish": [
+          "7.5"
+        ],
+        "nginx": [
+          "1.26"
+        ],
+        "apache": [
+          "2.4"
+        ],
+        "aws-aurora-mysql": [
+          "8.0"
+        ],
+        "aws-s3": [
+          "supported"
+        ],
+        "aws-mq": [
+          "3.9.13"
+        ],
+        "aws-elasticache": [
+          "redis-7"
+        ],
+        "aws-elasticsearch": [
+          "7.9"
+        ],
+        "aws-opensearch": [
+          "2.5"
+        ]
+      },
+      "isEOLVersion": false,
+      "isSecureVersion": true,
+      "isLatestVersion": false,
+      "isFutureVersion": false,
+      "statusLabel": "supported",
+      "securitySummary": {
+        "status": "vulnerable",
+        "requiredPatches": 0,
+        "upgradeRequired": true
+      }
+    },
+    "2.4.7-p2": {
+      "version": "2.4.7-p2",
+      "releaseDate": "2024-08-13",
+      "eolDate": "2027-05-31",
+      "systemRequirements": {
+        "php": [
+          "8.2",
+          "8.3"
+        ],
+        "composer": [
+          "2.9"
+        ],
+        "mysql": [
+          "8.0"
+        ],
+        "mariadb": [
+          "10.6"
+        ],
+        "elasticsearch": [
+          "7.17",
+          "8.11"
+        ],
+        "opensearch": [
+          "2.12"
+        ],
+        "redis": [
+          "7.2"
+        ],
+        "rabbitmq": [
+          "3.13"
+        ],
+        "varnish": [
+          "7.5"
+        ],
+        "nginx": [
+          "1.26"
+        ],
+        "apache": [
+          "2.4"
+        ],
+        "aws-aurora-mysql": [
+          "8.0"
+        ],
+        "aws-s3": [
+          "supported"
+        ],
+        "aws-mq": [
+          "3.9.13"
+        ],
+        "aws-elasticache": [
+          "redis-7"
+        ],
+        "aws-elasticsearch": [
+          "7.9"
+        ],
+        "aws-opensearch": [
+          "2.5"
+        ]
+      },
+      "isEOLVersion": false,
+      "isSecureVersion": true,
+      "isLatestVersion": false,
+      "isFutureVersion": false,
+      "statusLabel": "supported",
+      "securitySummary": {
+        "status": "vulnerable",
+        "requiredPatches": 0,
+        "upgradeRequired": true
+      }
+    },
+    "2.4.7-p1": {
+      "version": "2.4.7-p1",
+      "releaseDate": "2024-06-11",
+      "eolDate": "2027-05-31",
+      "systemRequirements": {
+        "php": [
+          "8.2",
+          "8.3"
+        ],
+        "composer": [
+          "2.9"
+        ],
+        "mysql": [
+          "8.0"
+        ],
+        "mariadb": [
+          "10.6"
+        ],
+        "elasticsearch": [
+          "7.17",
+          "8.11"
+        ],
+        "opensearch": [
+          "2.12"
+        ],
+        "redis": [
+          "7.2"
+        ],
+        "rabbitmq": [
+          "3.13"
+        ],
+        "varnish": [
+          "7.5"
+        ],
+        "nginx": [
+          "1.26"
+        ],
+        "apache": [
+          "2.4"
+        ],
+        "aws-aurora-mysql": [
+          "8.0"
+        ],
+        "aws-s3": [
+          "supported"
+        ],
+        "aws-mq": [
+          "3.9.13"
+        ],
+        "aws-elasticache": [
+          "redis-7"
+        ],
+        "aws-elasticsearch": [
+          "7.9"
+        ],
+        "aws-opensearch": [
+          "2.5"
+        ]
+      },
+      "isEOLVersion": false,
+      "isSecureVersion": true,
+      "isLatestVersion": false,
+      "isFutureVersion": false,
+      "statusLabel": "supported",
+      "securitySummary": {
+        "status": "vulnerable",
+        "requiredPatches": 0,
+        "upgradeRequired": true
+      }
+    },
+    "2.4.7": {
+      "version": "2.4.7",
+      "releaseDate": "2024-04-09",
+      "eolDate": "2027-05-31",
+      "systemRequirements": {
+        "php": [
+          "8.2",
+          "8.3"
+        ],
+        "composer": [
+          "2.9"
+        ],
+        "mysql": [
+          "8.0"
+        ],
+        "mariadb": [
+          "10.6"
+        ],
+        "elasticsearch": [
+          "7.17",
+          "8.11"
+        ],
+        "opensearch": [
+          "2.12"
+        ],
+        "redis": [
+          "7.2"
+        ],
+        "rabbitmq": [
+          "3.13"
+        ],
+        "varnish": [
+          "7.5"
+        ],
+        "nginx": [
+          "1.26"
+        ],
+        "apache": [
+          "2.4"
+        ],
+        "aws-aurora-mysql": [
+          "8.0"
+        ],
+        "aws-s3": [
+          "supported"
+        ],
+        "aws-mq": [
+          "3.9.13"
+        ],
+        "aws-elasticache": [
+          "redis-7"
+        ],
+        "aws-elasticsearch": [
+          "7.9"
+        ],
+        "aws-opensearch": [
+          "2.5"
+        ]
+      },
+      "isEOLVersion": false,
+      "isSecureVersion": true,
+      "isLatestVersion": false,
+      "isFutureVersion": false,
+      "statusLabel": "supported",
+      "securitySummary": {
+        "status": "vulnerable",
+        "requiredPatches": 1,
+        "upgradeRequired": true
+      }
+    },
+    "2.4.6": {
+      "version": "2.4.6",
+      "releaseDate": "2023-03-14",
+      "eolDate": "2026-08-11",
+      "systemRequirements": {
+        "php": [
+          "8.1",
+          "8.2"
+        ],
+        "composer": [
+          "2.2"
+        ],
+        "mysql": [
+          "8.0"
+        ],
+        "mariadb": [
+          "10.6"
+        ],
+        "elasticsearch": [
+          "7.17",
+          "8.5"
+        ],
+        "opensearch": [
+          "2.5"
+        ],
+        "redis": [
+          "7.0"
+        ],
+        "rabbitmq": [
+          "3.9",
+          "3.11"
+        ],
+        "varnish": [
+          "7.1"
+        ],
+        "nginx": [
+          "1.22"
+        ],
+        "apache": [
+          "2.4"
+        ],
+        "aws-aurora-mysql": [
+          "8.0"
+        ],
+        "aws-s3": [
+          "supported"
+        ],
+        "aws-mq": [
+          "3.9.13"
+        ],
+        "aws-elasticache": [
+          "redis-6"
+        ],
+        "aws-elasticsearch": [
+          "7.9"
+        ],
+        "aws-opensearch": [
+          "1.2"
+        ]
+      },
+      "isEOLVersion": true,
+      "isSecureVersion": false,
+      "isLatestVersion": false,
+      "isFutureVersion": false,
+      "statusLabel": "eol",
+      "securitySummary": {
+        "status": "eol",
+        "requiredPatches": 0,
+        "upgradeRequired": true
+      }
+    },
+    "2.4.9": {
+      "version": "2.4.9",
+      "releaseDate": "2026-05-12",
+      "eolDate": "2029-05-31",
+      "systemRequirements": {
+        "php": [
+          "8.5"
+        ],
+        "composer": [
+          "2.10"
+        ],
+        "mysql": [
+          "8.4"
+        ],
+        "mariadb": [
+          "11.8",
+          "12.3"
+        ],
+        "opensearch": [
+          "3"
+        ],
+        "rabbitmq": [
+          "4.3"
+        ],
+        "valkey": [
+          "9"
+        ],
+        "varnish": [
+          "8"
+        ],
+        "nginx": [
+          "1.30"
+        ],
+        "activemq": [
+          "2"
+        ],
+        "aws-aurora-mysql": [
+          "8.0"
+        ],
+        "aws-s3": [
+          "supported"
+        ],
+        "aws-mq": [
+          "3.13"
+        ],
+        "aws-elasticache": [
+          "redis-7.1"
+        ],
+        "aws-opensearch": [
+          "3.1"
+        ]
+      },
+      "isEOLVersion": false,
+      "isSecureVersion": true,
+      "isLatestVersion": true,
+      "isFutureVersion": false,
+      "statusLabel": "supported (latest)",
+      "securitySummary": {
+        "status": "vulnerable",
+        "requiredPatches": 5,
+        "upgradeRequired": false
+      }
+    }
+  }
+}
