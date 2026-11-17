@@ -24,3 +24,15 @@ jobs:
       - run: npm run build
       - run: git diff --exit-code
       - run: git status --porcelain && test -z "$(git status --porcelain)"
+  matrix:
+    name: "Smoke test of API action"
+    needs: check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ./
+        with:
+          months: 12
+          sample-data: 'true'
+          include-prerelease: 'true'
+          include-eol: 'true'
