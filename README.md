@@ -148,7 +148,6 @@ jobs:
 | Input | Required | Default | Description |
 | --- | :---: | --- | --- |
 | `months` | **Yes** | — | Maximum age of Magento releases in months (`months * 30` days from the current date) to include in the matrix. |
-| `namespace` | **Yes** | — | Container image namespace for generated Docker images (e.g., `ecomdev/testcontainer-magento-data`). |
 | `version-api-url` | No | `https://magento.watch/api/v1/magento-community/versions` | API endpoint returning Magento release metadata and system requirements in Magento Watch v1 JSON format. |
 | `include-prerelease` | No | `'false'` | Include upcoming/pre-release versions such as `alpha`, `beta`, and `rc` (`'true'` / `'false'`). |
 | `include-eol` | No | `'false'` | Include End-of-Life (EOL) Magento versions that fall within the `months` window (`'true'` / `'false'`). |
