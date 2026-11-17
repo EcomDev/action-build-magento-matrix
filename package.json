@@ -1,0 +1,30 @@
+{
+  "name": "action-build-magento-matrix",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "Ivan Chepurnyi",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "bundle": "esbuild . --bundle --platform=node --target=node24 --format=cjs --outfile=dist/index.cjs --sourcemap --minify --keep-names",
+    "test": "vitest run",
+    "license": "generate-license-file --input package.json --output dist/licenses.txt --overwrite --ci --no-spinner --eol lf",
+    "build": "npm run bundle && npm run license"
+  },
+  "dependencies": {
+    "@actions/core": "^3.0.1",
+    "semver": "^7.8.6"
+  },
+  "devDependencies": {
+    "@github/local-action": "^7.0.1",
+    "@types/semver": "^7.8.0",
+    "@types/node": "^26.0",
+    "esbuild": "^0.28.2",
+    "generate-license-file": "^4.2.5",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  },
+  "allowScripts": {
+    "esbuild": true
+  }
+}

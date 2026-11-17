@@ -1,0 +1,37 @@
+name: Generate Magento Version Matrix for Data Artifacts
+description: Creates a matrix of Magento versions for data test containers build
+author: Ivan Chepurnyi <ivan@ecom.dev>
+branding:
+  icon: database
+  color: purple
+inputs:
+  months:
+    required: true
+    description: Age of releases in months which to use for data artifacts
+  version-api-url:
+    required: false
+    description: Source API to use for generating docker images
+    default: https://magento.watch/api/v1/magento-community/versions
+  namespace:
+    required: true
+    description: Namespace to use for generating docker images (e.g. ecomdev/testcontainer-magento-data)
+  include-prerelease:
+    required: false
+    description: Include prerelease versions like alpha, beta, rc, etc.
+    default: 'false'
+  include-eol:
+    required: false
+    description: Include EOL versions
+    default: 'false'
+  sample-data:
+    required: false
+    description: Add sample data variations
+    default: 'false'
+outputs:
+  images:
+    description: JSON array of images with tag names
+  builds:
+    description: JSON array of arguments for Magento artifact build action
+runs:
+  using: node24
+  main: dist/index.cjs
