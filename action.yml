@@ -12,9 +12,6 @@ inputs:
     required: false
     description: Source API to use for generating docker images
     default: https://magento.watch/api/v1/magento-community/versions
-  namespace:
-    required: true
-    description: Namespace to use for generating docker images (e.g. ecomdev/testcontainer-magento-data)
   include-prerelease:
     required: false
     description: Include prerelease versions like alpha, beta, rc, etc.
