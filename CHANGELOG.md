@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/EcomDev/action-build-magento-matrix/compare/v1.0.0...v1.0.1) (2026-11-17)
+
+
+### Bug Fixes
+
+* remove redundant namespace parameter ([5cf3ff7](https://github.com/EcomDev/action-build-magento-matrix/commit/5cf3ff7b0c232a6baaa0600b0704ee22635d8927))
+
 ## 1.0.0 (2026-11-17)
 
 
